@@ -11,7 +11,6 @@ interface CreateUseCaseResponse {
   task: Task
 }
 
-
 export class CreateUseCase {
   constructor(private tasksRepository: TasksRepository) { }
 
